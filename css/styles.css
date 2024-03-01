@@ -1,0 +1,9 @@
+/* global margin styles */
+* {
+    margin: 0;
+}
+
+/* style for body */
+body {
+    font-family: "Sora", sans-serif;
+}
