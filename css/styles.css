@@ -19,13 +19,6 @@ body {
     border-radius: 1rem;
 }
 
-/* card title */
-.card-title {
-    color: #20293A;
-    font-size: 1.125rem;
-    margin: 16px 0 6px;
-}
-
 /* category text styles */
 .category-text {
     color: #883AE1;
@@ -34,4 +27,28 @@ body {
     font-weight: 500;
     background-color: #E6D6FC;
     border-radius: 1rem;
+}
+
+/* card title */
+.card-title {
+    color: #20293A;
+    font-size: 1.125rem;
+    margin: 16px 0 6px;
+}
+
+/* card description */
+.card-description {
+    color: #6C727F;
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E5EAF0; 
+}
+
+/* card author */
+.card-author {
+    color: #6C727F;
+    font-size: 0.625rem;
+    font-weight: 500;
+    padding: 1.25rem 0;
 }
