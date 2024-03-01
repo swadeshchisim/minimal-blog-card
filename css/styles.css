@@ -6,12 +6,23 @@
 /* style for body */
 body {
     font-family: "Sora", sans-serif;
+    background-color: #FAFAF9;
 }
 
 /* minimal-blog-card */
+.blog-card-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 164px;
+}
+.container {
+    max-width: 1240px;
+}
 .card {
     width: 336px;
     padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.1);
 }
 .card-img {
     width: 100%;
@@ -42,6 +53,7 @@ body {
     font-size: 0.875rem;
     font-weight: 500;
     padding-bottom: 20px;
+    margin-bottom: 1rem;
     border-bottom: 1px solid #E5EAF0; 
 }
 
