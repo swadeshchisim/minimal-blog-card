@@ -11,12 +11,19 @@ body {
 /* minimal-blog-card */
 .card {
     width: 336px;
-    padding: 20px;
+    padding: 1rem;
 }
-.card > img {
+.card-img {
     width: 100%;
     margin-bottom: 1rem;
     border-radius: 1rem;
+}
+
+/* card title */
+.card-title {
+    color: #20293A;
+    font-size: 1.125rem;
+    margin: 16px 0 6px;
 }
 
 /* category text styles */
